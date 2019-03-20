@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        function change()
+        {    
+            var sr=document.getElementById("imgg");
+            if(sr.src.match("close"))
+            {
+               sr.src="light.png";
+            }
+            else
+            {
+                sr.src="close.png";
+            }
+        }
+    </script>
+</head>
+<body>
+<img id="imgg" src="close.png">
+<button type="button" onclick="change()">change</button>
+
+
+
+
+
+</body>
+</html>
